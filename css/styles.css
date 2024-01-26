@@ -270,7 +270,7 @@ button {
   background-repeat: no-repeat;
   background-position: center;
 
-  max-width: 320px;
+  min-width: 320px;
   background-size: cover;
 
   margin: 0 auto;
