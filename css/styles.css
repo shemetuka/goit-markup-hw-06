@@ -288,7 +288,8 @@ button {
   line-height: 1.07;
   letter-spacing: 0.02em;
   /* max-width: 496px; */
-  max-width: 288px;
+  max-width: 200px;
+  height: 160px;
   margin: 0 auto;
   /* margin-bottom: 48px; */
 
@@ -749,7 +750,7 @@ button {
 }
 .modal {
   width: 288px;
-  padding: 72px 24px 24px 24px;
+  padding: 72px 16px 24px 16px;
   height: 623px;
   border-radius: 4px;
   background: #fcfcfc;
@@ -949,6 +950,22 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.policy-text {
+  display: flex;
+}
+
+.text-policy {
+  color: var(--LIGHT-SLATE, #8e8f99);
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+}
+
+.checkbox-one {
+  display: flex;
+  align-items: center;
+}
+
 .modal-last-btn:hover,
 .modal-last-btn:focus {
   background-color: #404bbf;
@@ -1123,6 +1140,7 @@ button {
   .modal {
     width: 408px;
     height: 584px;
+    padding: 72px 24px 24px 24px;
   }
 }
 
