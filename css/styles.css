@@ -950,8 +950,7 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.policy-text {
-  display: flex;
+/* .policy-text {
 }
 
 .text-policy {
@@ -964,7 +963,7 @@ button {
 .checkbox-one {
   display: flex;
   align-items: center;
-}
+} */
 
 .modal-last-btn:hover,
 .modal-last-btn:focus {
