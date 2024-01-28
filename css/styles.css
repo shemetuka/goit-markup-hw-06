@@ -37,7 +37,7 @@ button {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .container {
-  width: 320px;
+  max-width: 320px;
   padding: 0 16px;
   margin: 0 auto;
 }
@@ -984,7 +984,7 @@ button {
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
     padding: 0 16px;
     margin: 0 auto;
   }
@@ -1169,7 +1169,7 @@ button {
 
 @media screen and (min-width: 1158px) {
   .container {
-    width: 1158px;
+    max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
   }
