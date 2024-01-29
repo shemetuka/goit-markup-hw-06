@@ -67,6 +67,7 @@ button {
   color: var(--NAVY-BLUE, #4d5ae5);
   font-size: 18px;
   font-family: "Raleway";
+  position: absolute;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -162,11 +163,10 @@ button {
   width: 24px;
   height: 24px;
   background-color: transparent;
-  position: absolute;
   margin-left: auto;
   border-color: transparent;
-  top: 16px;
-  right: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
   cursor: pointer;
   padding: 0;
   stroke-width: 1px;
@@ -302,9 +302,7 @@ button {
   letter-spacing: 0.02em;
   /* max-width: 496px; */
   max-width: 200px;
-  height: 160px;
   margin: 0 auto;
-  /* margin-bottom: 48px; */
 
   margin-bottom: 72px;
 }
@@ -370,6 +368,7 @@ button {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
   font-size: 36px;
+  margin-bottom: 8px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -514,6 +513,11 @@ button {
   /* gap: 48px 24px; */
   gap: 48px;
 }
+
+.portfolio-list-img {
+  height: auto;
+  width: 100%;
+}
 .portfolio-list-item {
   gap: 8px;
   /* width: 100%; */
@@ -594,7 +598,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: inline-block;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
   margin: 0;
 }
 .footer-text-main {
@@ -609,7 +613,7 @@ button {
   display: flex;
   justify-content: center;
 
-  margin-bottom: 16px;
+  margin-bottom: 33.5px;
 }
 
 .footer-div {
@@ -659,6 +663,10 @@ button {
   color: #f4f4fd;
 }
 
+.footer-text-main {
+  margin-bottom: 72px;
+}
+
 .footer-text-p {
   /* color: var(--CLOUD, #f4f4fd);
   font-size: 16px;
@@ -666,7 +674,8 @@ button {
   letter-spacing: 0.02em; */
   /* max-width: 264px; */
   max-width: 288px;
-  margin-bottom: 72px;
+  margin-top: 16px;
+  /* margin-bottom: 72px; */
 
   color: var(--CLOUD, #f4f4fd);
   font-size: 16px;
@@ -990,6 +999,10 @@ button {
     margin: 0 auto;
   }
 
+  .logo {
+    position: relative;
+  }
+
   .menu-open-btn {
     display: none;
   }
@@ -1000,6 +1013,7 @@ button {
 
   .adress {
     display: flex;
+    margin-left: 120px;
   }
 
   .address-list {
@@ -1008,7 +1022,6 @@ button {
     gap: 12px;
     margin-top: 16px;
     margin-bottom: 9px;
-    margin-left: 120px;
   }
 
   .address-list-a {
@@ -1181,15 +1194,14 @@ button {
     gap: 40px;
     margin-top: 24px;
     margin-bottom: 24px;
-    margin-left: 332px;
   }
 
   .address-list-a {
     color: var(--SLATE, #434455);
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 1.16;
-    letter-spacing: 0.04em;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     margin: 0;
   }
   .header-nav {
@@ -1198,6 +1210,7 @@ button {
 
   .adress {
     padding: 0;
+    margin-left: auto;
   }
 
   .logo {
@@ -1280,10 +1293,7 @@ button {
   .section-first-title {
     max-width: 496px;
     margin: 0 auto;
-    /* margin-bottom: 48px; */
-
-    margin-bottom: 36px;
-
+    margin-bottom: 48px;
     color: var(--WHITE, #fff);
     text-align: center;
     font-size: 56px;
@@ -1332,6 +1342,7 @@ button {
 
   .footer-link {
     margin-left: 120px;
+    margin-bottom: 0;
   }
 
   .email-footer {
@@ -1340,6 +1351,7 @@ button {
 
   .footer-text-p {
     max-width: 264px;
+    margin-bottom: 0;
   }
 
   /* _______________________MODAL__________________ */
