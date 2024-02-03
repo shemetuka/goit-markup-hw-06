@@ -64,16 +64,16 @@
           </ul>
           <!-- ___________________________BUTTON________________________________________ -->
         </address>
-        <button type="button" class="menu-open-btn" data-modal>
+        <button type="button" class="menu-open-btn" id="my-button-open">
           <svg width="24" height="24" class="">
             <use href="./images/icons.svg#icon-heroicons-solid_menu-1"></use>
           </svg>
         </button>
       </div>
       <!-- is-open here  -->
-      <div class="mob-menu">
+      <div class="mob-menu" id="my-modal">
         <!-- is-open here -->
-        <button type="button" class="menu-close-btn">
+        <button type="button" class="menu-close-btn" id="modal-button-close">
           <svg width="8" height="8" class="mob-close-btn-svg">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
@@ -159,7 +159,11 @@
           <h1 class="section-first-title">
             Effective Solutions for Your Business
           </h1>
-          <button type="button" class="section-feature-btn">
+          <button
+            type="button"
+            class="section-feature-btn"
+            id="my-down-button-open"
+          >
             Order Service
           </button>
         </div>
@@ -616,9 +620,13 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop" id="my-down-modal">
       <div class="modal">
-        <button type="button" class="modal-close-btn">
+        <button
+          type="button"
+          class="modal-close-btn"
+          id="modal-down-button-close"
+        >
           <svg width="8" height="8" class="modal-close-btn-svg">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
@@ -700,5 +708,6 @@
         </form>
       </div>
     </div>
+    <script src="js/index.js"></script>
   </body>
 </html>
